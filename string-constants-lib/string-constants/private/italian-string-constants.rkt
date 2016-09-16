@@ -50,30 +50,30 @@ Italian translation for Racket
  (dont-ask-again                "Non chiederlo nuovamente")
 
  ;;; important urls
- (web-materials "Related Web Sites") ;; menu item title
- (tool-web-sites "Tool Web Sites")   ;; menu item title
+ (web-materials "Siti web correlati") ;; menu item title
+ (tool-web-sites "Siti web con strumenti")   ;; menu item title
  (plt-homepage "Racket")
  (pbd-homepage "Program by Design")
 
  ;;; bug report form
- (cancel-bug-report? "Cancel Bug Report?")
+ (cancel-bug-report? "Cancella segnalazione errori?")
  (are-you-sure-cancel-bug-report?
-  "Are you sure that you want to cancel sending this bug report?")
+  "Sei sicuro di voler interrompere l'invio di questa segnalazione errori?")
  (do-you-want-to-discard-or-save-this-bug-report
-  "Do you want to discard or save this bug report?")
- (discard "Discard") ;; a button label for a dialog box with the above question
- (bug-report-form "Bug Report Form")
- (bug-report-field-name "Your Name")
+  "Vuoi scartare o salvare questa segnalazione errori?")
+ (discard "Scarta") ;; a button label for a dialog box with the above question
+ (bug-report-form "Modulo segnalazione errori")
+ (bug-report-field-name "Il tuo nome")
  (bug-report-field-email "Email")
- (bug-report-field-summary "Summary")
- (bug-report-field-severity "Severity")
- (bug-report-field-class "Class")
- (bug-report-field-description "Description")
- (bug-report-field-reproduce1 "Steps to")
- (bug-report-field-reproduce2 "Reproduce")
- (bug-report-field-environment "Environment")
- (bug-report-field-docs-installed "Docs Installed")
- (bug-report-field-collections "Collections")
+ (bug-report-field-summary "Sommario")
+ (bug-report-field-severity "Severità")
+ (bug-report-field-class "Classe")
+ (bug-report-field-description "Descrizione")
+ (bug-report-field-reproduce1 "Passi per")
+ (bug-report-field-reproduce2 "Riprodurre")
+ (bug-report-field-environment "Ambiente")
+ (bug-report-field-docs-installed "Docs installati")
+ (bug-report-field-collections "Collezioni")
  (bug-report-field-links "Links")  ;; from 'raco link'
  (bug-report-field-human-language "Human Language")
  (bug-report-field-memory-use "Memory Use")

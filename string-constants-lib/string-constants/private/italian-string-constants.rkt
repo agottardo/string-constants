@@ -1117,13 +1117,13 @@ Italian translation for Racket
  (debugging "Debugging")
  (debugging-and-profiling "Debugging and profiling")
  (test-coverage "Syntactic test suite coverage")
- (show-details-button-label "Show Details")
- (hide-details-button-label "Hide Details")
+ (show-details-button-label "Mostra dettagli")
+ (hide-details-button-label "Nascondi dettagli")
  (choose-language-menu-item-label "Choose Language…")
  (revert-to-language-defaults "Revert to Language Defaults")
- (fraction-style "Fraction Style")
- (use-mixed-fractions "Mixed fractions")
- (use-repeating-decimals "Repeating decimals")
+ (fraction-style "Stile frazioni")
+ (use-mixed-fractions "Frazioni miste")
+ (use-repeating-decimals "Decimali ripetuti")
  (decimal-notation-for-rationals "Use decimal notation for rationals")
  (enforce-primitives-group-box-label "Initial Bindings")
  (enforce-primitives-check-box-label "Disallow redefinition of initial bindings")
@@ -1140,24 +1140,24 @@ Italian translation for Racket
   ; used in the bottom left of the drscheme frame 
   ; used the popup menu from the just above; greyed out and only
   ; visible when some languages are in the history
-  (recent-languages "Recent languages:")
+  (recent-languages "Linguaggi recenti:")
   ; shows up in bottom-left programming language menu popup, when no langs are recorded
-  (no-recently-chosen-languages "no recently chosen languages") 
+  (no-recently-chosen-languages "nessun linguaggio scelto di recente") 
   
  ;; startup wizard screen language selection section
- (please-select-a-language "Please select a language")
+ (please-select-a-language "Per favore seleziona un linguaggio")
   
   
  ;;; languages
- (beginning-student "Beginning Student")
+ (beginning-student "Studente principiante")
  (beginning-one-line-summary "define, cond, structs, constants, and primitives")
- (beginning-student/abbrev "Beginning Student with List Abbreviations")
- (beginning/abbrev-one-line-summary "Beginner, with list style printing in the REPL")
- (intermediate-student "Intermediate Student")
- (intermediate-one-line-summary "Beginner plus lexical scope")
- (intermediate-student/lambda "Intermediate Student with lambda")
+ (beginning-student/abbrev "Studente principiante con abbreviazioni liste")
+ (beginning/abbrev-one-line-summary "Principiante, con visualizzazione liste stile REPL")
+ (intermediate-student "Studente intermedio")
+ (intermediate-one-line-summary "Principiante + lexical scoping")
+ (intermediate-student/lambda "Studente intermedio con lambda")
  (intermediate/lambda-one-line-summary "Intermediate plus higher-order functions")
- (advanced-student "Advanced Student")
+ (advanced-student "Studente avanzato")
  (advanced-one-line-summary "Intermediate plus lambda and mutation")
  (how-to-design-programs "How to Design Programs") ;; should agree with MIT Press on this one...
  (pretty-big-scheme "Pretty Big")
@@ -1166,14 +1166,14 @@ Italian translation for Racket
  (r5rs-one-line-summary "R5RS, with no frills")
  (expander "Expander")
  (expander-one-line-summary "Expands, rather than evaluates, expressions")
- (legacy-languages "Legacy Languages")
- (teaching-languages "Teaching Languages")
- (experimental-languages "Experimental Languages")
+ (legacy-languages "Linguaggi del passato")
+ (teaching-languages "Linguaggi per imparare")
+ (experimental-languages "Linguaggi sperimentali")
   (initial-language-category "Initial language")
-  (no-language-chosen "No language chosen")
- (other-languages "Other Languages")
+  (no-language-chosen "Nessun linguaggio selezionato")
+ (other-languages "Altri linguaggi")
   
-  (module-language-name "Determine language from source")
+  (module-language-name "Determina il linguaggio dal sorgente")
  (module-language-one-line-summary "The #lang line specifies the actual language")
   (module-language-auto-text "Automatic #lang line") ;; shows up in the details section of the module language
   ;; the next four string constants show up in the REPL in DrRacket in the "Racket Language",
@@ -1185,8 +1185,8 @@ Italian translation for Racket
   (module-language-repl-test-annotations ", with test coverage")
 
   ;; for the upper portion of the language dialog
-  (the-racket-language "The Racket Language")
-  (choose-a-language "Choose a language")
+  (the-racket-language "Il linguaggio Racket")
+  (choose-a-language "Scegli un linguaggio")
   
   ;; the next two string constants appear in the
   ;; language dialog with a list
@@ -1213,17 +1213,17 @@ Italian translation for Racket
   (replace-#lang-line "Replace #lang line")
   
   ;; for the 'new drracket user' dialog
-  (use-language-in-source "Use the language declared in the source")
+  (use-language-in-source "Usa il linguaggio specificato nel sorgente")
   
   ;;; from the `not a language language' used initially in drscheme.
-  (must-choose-language "DrRacket cannot process programs until you choose a programming language.")
+  (must-choose-language "DrRacket non può eseguire programmi finchè non scegli un linguaggio di programmazione.")
   
   ; next two appear before and after the name of a text book (which will be in italics)
-  (using-a-textbook-before "Using ")
+  (using-a-textbook-before "Utilizzo ")
   (using-a-textbook-after "?")
   
   ; next two are before and after a language
-  (start-with-before "Start with ")
+  (start-with-before "Inizia con ")
   (start-with-after "")
   
   (seasoned-plt-schemer? "Seasoned PLT Schemer?")
@@ -1266,8 +1266,8 @@ Italian translation for Racket
  (profiling-col-function "Function")
  (profiling-col-time-in-msec "Msec")
  (profiling-col-calls "Calls")
- (profiling-show-profile "Show Profile")
- (profiling-hide-profile "Hide Profile")
+ (profiling-show-profile "Mostra profilo")
+ (profiling-hide-profile "Nascondi profilo")
  (profiling-unknown-src "<< unknown >>")
  (profiling-no-information-available 
   "There is no profiling information available. Please be sure that"
@@ -1292,7 +1292,7 @@ Italian translation for Racket
  (tracing-tracing-nothing-to-show "No tracing results are available, yet. (Make sure that your language supports tracing and that tracing is enabled.)")
 
  ;;; repl stuff
- (evaluation-terminated "Evaluation Terminated")
+ (evaluation-terminated "Evaluation terminata")
  (evaluation-terminated-explanation
   "The evaluation thread is no longer running, so no evaluation can take place until the next execution.")
   
@@ -1305,43 +1305,43 @@ Italian translation for Racket
   (program-ran-out-of-memory "The program ran out of memory.")
   
   (show-evaluation-terminated-dialog "Show the ‘evaluation terminated’ dialog")
-  (evaluation-terminated-ask "Show this dialog next time")
+  (evaluation-terminated-ask "Mostra questa finestra la prossima volta")
   
   (last-stack-frame "show the last stack frame")
   (last-stack-frames "show the last ~a stack frames")
   (next-stack-frames "show the next ~a stack frames")
  
  ;;; welcoming message in repl
- (language "Language")
- (custom "custom")
+ (language "Linguaggio")
+ (custom "personalizzato")
  (teachpack "Teachpack")
- (welcome-to "Welcome to")
- (version "version")
+ (welcome-to "Benvenuto in")
+ (version "versione")
  
  ;;; kill evaluation dialog
- (kill-evaluation? "Do you want to kill the evaluation?")
- (just-break "Just Break")
- (kill "Kill")
- (kill? "Kill?")
+ (kill-evaluation? "Vuoi davvero interrompere l'evaluation?")
+ (just-break "Sospendi e basta")
+ (kill "Interrompi")
+ (kill? "Interrompere?")
 
  ;;; version checker
- (version:update-menu-item   "Check for Updates…")
- (version:update-check       "Update check") ; dialog title, with the next line
- (version:connecting-server  "Connecting to Racket version server")
- (version:results-title      "Racket Version Check")
- (version:do-periodic-checks "Periodically check for newer Racket versions")
- (version:take-me-there      "Take Me There") ; ...to the download website
+ (version:update-menu-item   "Controlla aggiornamenti…")
+ (version:update-check       "Controllo aggiornamenti") ; dialog title, with the next line
+ (version:connecting-server  "Connessione al server di versione di Racket")
+ (version:results-title      "Controllo di versione Racket")
+ (version:do-periodic-checks "Controlla periodicamente la disponibilità di nuove versioni di Racket")
+ (version:take-me-there      "Portami lì") ; ...to the download website
  ;; the next one can appear alone, or followed by a comma and the one after that
- (version:plt-up-to-date     "Your Racket version is up-to-date")
- (version:but-newer-alpha    "but note that there is a newer alpha-release")
+ (version:plt-up-to-date     "La tua versione di Racket è aggiornata")
+ (version:but-newer-alpha    "ma tieni presente che è disponibile una versione alpha")
  ;; This is used in this context: "Racket vNNN <<<*>>> http://download..."
- (version:now-available-at   "is now available at")
+ (version:now-available-at   "è ora disponibile su")
 
  ;; insert menu
  (insert-menu "&Insert")
  
  ;; large semi colon letters
- (insert-large-letters... "Insert Large Letters…")
+ (insert-large-letters... "Inserisci Large Letters…")
  (large-semicolon-letters "Large Semicolon Letters")
  (text-to-insert "Text to insert")
 
@@ -1367,17 +1367,17 @@ Italian translation for Racket
   (module-browser-only-in-plt-and-module-langs
    "The module browser is only available for module-based programs.")
  (module-browser-name-length "Name length")
- (module-browser-name-short "Short")
- (module-browser-name-medium "Medium")
- (module-browser-name-long "Long")
- (module-browser-name-very-long "Long, with phases")  ;; like 'Long' but shows the phases where this file is loaded
+ (module-browser-name-short "Corto")
+ (module-browser-name-medium "Medio")
+ (module-browser-name-long "Lungo")
+ (module-browser-name-very-long "Lungo, con fasi")  ;; like 'Long' but shows the phases where this file is loaded
  (module-browser-open-all "Open all files shown here")
 
- (happy-birthday-matthias "Happy Birthday, Matthias!")
- (happy-birthday-matthew "Happy Birthday, Matthew!")
- (happy-birthday-shriram "Happy Birthday, Shriram!")
+ (happy-birthday-matthias "Buon compleanno, Matthias!")
+ (happy-birthday-matthew "Buon compleanno, Matthew!")
+ (happy-birthday-shriram "Buon compleanno, Shriram!")
 
- (mrflow-using-default-language-title "Default Language Used")
+ (mrflow-using-default-language-title "Linguaggio usato di default")
  (mrflow-using-default-language "The language currently used does not have a type table defined for its primitives. Using R5RS Scheme instead.")
  (mrflow-button-title "Analyze")
  ;(mrflow-unknown-style-delta-error-title "Unknown Box Style Delta")
@@ -1404,14 +1404,14 @@ Italian translation for Racket
  ;(snips-and-arrows-changing-terms-warning-title "Changing terms will be undoable")
  (snips-and-arrows-hide-all-snips-in-editor "Hide all snips in editor")
 
- (xml-tool-insert-xml-box "Insert XML Box")
- (xml-tool-insert-scheme-box "Insert Racket Box")
- (xml-tool-insert-scheme-splice-box "Insert Racket Splice Box")
+ (xml-tool-insert-xml-box "Inserisci XML Box")
+ (xml-tool-insert-scheme-box "Inserisci Racket Box")
+ (xml-tool-insert-scheme-splice-box "Inserisci Racket Splice Box")
  (xml-tool-xml-box "XML Box")
  (xml-tool-scheme-box "Racket Box")
  (xml-tool-scheme-splice-box "Racket Splice Box")
- (xml-tool-switch-to-scheme "Switch to Racket box")
- (xml-tool-switch-to-scheme-splice "Switch to Racket splice box")
+ (xml-tool-switch-to-scheme "Passa a Racket box")
+ (xml-tool-switch-to-scheme-splice "Passa a Racket splice box")
  (xml-tool-eliminate-whitespace-in-empty-tags
   "Eliminiate whitespace in empty tags")
  (xml-tool-leave-whitespace-alone
@@ -1426,14 +1426,14 @@ Italian translation for Racket
  (stepper-program-window-closed "WARNING: The program window is gone.")
 
  (stepper-name "Stepper")
- (stepper-language-level-message "The stepper does not work for language “~a”.")
+ (stepper-language-level-message "Lo stepper non funziona per il linguaggio “~a”.")
  (stepper-button-label "Step")
 
  (stepper-previous "Step")
  (stepper-next "Step")
- (stepper-jump "Jump…")
- (stepper-jump-to-beginning "to beginning")
- (stepper-jump-to-end "to end")
+ (stepper-jump "Salta…")
+ (stepper-jump-to-beginning "all'inizio")
+ (stepper-jump-to-end "alla fine")
  (stepper-jump-to-selected "to beginning of selected")
  (stepper-jump-to-previous-application "to previous application step")
  (stepper-jump-to-next-application "to next application step")
@@ -1459,7 +1459,7 @@ Italian translation for Racket
   
  (debug-tool-button-name "Debug")
 
- (dialog-back "Back")
+ (dialog-back "Indietro")
 
  ;; warnings about closing a drscheme frame when the program
  ;; might still be doing something interesting
@@ -1488,11 +1488,11 @@ Italian translation for Racket
 
   ;; button labels
   ;;  The package manager uses these, too
-  (ml-cp-add "Add")
-  (ml-cp-add-default "Add Default")
-  (ml-cp-remove "Remove")
-  (ml-cp-raise "Raise")
-  (ml-cp-lower "Lower")
+  (ml-cp-add "Aggiungi")
+  (ml-cp-add-default "Aggiungi Default")
+  (ml-cp-remove "Rimuovi")
+  (ml-cp-raise "Alza")
+  (ml-cp-lower "Abbassa")
   
   (ml-always-show-#lang-line "Always show #lang line in the Module language")
 
@@ -1501,25 +1501,25 @@ Italian translation for Racket
   (profj-java-mode "Java mode")
   (profj-java-coverage "Java Coverage") ;; shows up in the preferences dialog under 'Color'
   
-  (profj-beginner-lang "Beginner")
+  (profj-beginner-lang "Principiante")
   (profj-beginner-lang-one-line-summary "Java-like Beginner teaching language")
   (profj-full-lang "Full")
   (profj-full-lang-one-line-summary "Like Java 1.0 (some 1.1)")
-  (profj-advanced-lang "Advanced")
+  (profj-advanced-lang "Avanzato")
   (profj-advanced-lang-one-line-summary "Java-like Advanced teaching language")
-  (profj-intermediate-lang "Intermediate")
+  (profj-intermediate-lang "Intermedio")
   (profj-intermediate-lang-one-line-summary "Java-like Intermediate teaching language")
   (profj-intermediate-access-lang "Intermediate + access")
   (profj-intermediate-access-lang-one-line-summary "Java-like Intermediate teaching language, with access modifiers")
   (profj-dynamic-lang "Java+dynamic")
   (profj-dynamic-lang-one-summary "Java with dynamic typing capabilities")
 
-  (profj-java-mode-color-heading "Edit Colors") ; Heading for preference to choose editing colors  
+  (profj-java-mode-color-heading "Modifica colori") ; Heading for preference to choose editing colors  
   (profj-java-mode-color-keyword "keyword")
-  (profj-java-mode-color-string "string")
+  (profj-java-mode-color-string "stringa")
   (profj-java-mode-color-literal "literal")
-  (profj-java-mode-color-comment "comment")
-  (profj-java-mode-color-error "error")
+  (profj-java-mode-color-comment "commento")
+  (profj-java-mode-color-error "errore")
   (profj-java-mode-color-identifier "identifier")
   (profj-java-mode-color-prim-type "primitive type") ; Example text for built-in Java types
   (profj-java-mode-color-default "default")
@@ -1549,13 +1549,13 @@ Italian translation for Racket
   ;; Hide docked testing window and do not run test cases any more
   ;(profj-test-results-hide-and-disable "Hide and Disable Testing")
   ;Renamed below
-  ;(profj-test-results-window-title "Test Results")
+  ;(profj-test-results-window-title "Risultati test")
   
   (profj-unsupported "Unsupported")
   (profj-executables-unsupported "Sorry - executables are not supported for Java at this time")
 
-  (profj-convert-to-text-comment "Convert to text comment")
-  (profj-convert-to-comment "Convert to comment")
+  (profj-convert-to-text-comment "Converti in commento di testo")
+  (profj-convert-to-comment "Converti in commento")
 
   (profj-executing-main "executing main")
 
@@ -1564,13 +1564,13 @@ Italian translation for Racket
 
   ;;The Test engine tool
   ;;
-  (test-engine-window-title "Test Results")
+  (test-engine-window-title "Risultati test")
   ;;Following two appear in View menu, attach and free test report window from DrRacket frame
   (test-engine-dock-report "Dock Test Report")
   (test-engine-undock-report "Undock Test Report")
   ;;Following two appear in Racket (Java, etc) menu, cause Tests to be Run automatically or not
-  (test-engine-enable-tests "Enable Tests")
-  (test-engine-disable-tests "Disable Tests")
+  (test-engine-enable-tests "Attiva test")
+  (test-engine-disable-tests "Disattiva test")
   (test-engine-enable-disable-tests-only-in-teaching-languages
    "The Enable/Disable Tests menu item is used only to disable and enable the HtDP and DMdA teaching languages support for testing. See the “Show Details” section of the language dialog for controlling the submodules that are run in The Racket Language.")
 
@@ -1581,43 +1581,43 @@ Italian translation for Racket
   (test-engine-ran-n-checks "Ran ~a checks.")
   (test-engine-1-test-passed "The test passed!")
   (test-engine-1-check-passed "The check passed!")
-  (test-engine-both-tests-passed "Both tests passed!")
-  (test-engine-both-checks-passed "Both checks passed!")
-  (test-engine-all-tests-passed "All tests passed!")
-  (test-engine-all-checks-passed "All checks passed!")
-  (test-engine-all-n-tests-passed "All ~a tests passed!")
-  (test-engine-all-n-checks-passed "All ~a checks passed!")
-  (test-engine-0-tests-passed "0 tests passed.")
-  (test-engine-0-checks-passed "0 checks passed.")
-  (test-engine-m-of-n-tests-failed "~a of the ~a tests failed.")
-  (test-engine-m-of-n-checks-failed "~a of the ~a checks failed.")
-  (test-engine-must-be-tested "This program must be tested!")
-  (test-engine-is-unchecked "This program is unchecked!")
-  (test-engine-tests-disabled "Tests disabled.")
-  (test-engine-should-be-tested "This program should be tested.")
-  (test-engine-at-line-column "at line ~a, column ~a")
-  (test-engine-in-at-line-column "in ~a, line ~a, column ~a")
-  ; as in "column (unknown)"
-  (test-engine-unknown "(unknown)")
+  (test-engine-both-tests-passed "Superati entrambi i test!")
+  (test-engine-both-checks-passed "Superati entrambi i controlli!")
+  (test-engine-all-tests-passed "Superati tutti i test!")
+  (test-engine-all-checks-passed "Superati tutti i controlli!")
+  (test-engine-all-n-tests-passed "Superati tutti i ~a test!")
+  (test-engine-all-n-checks-passed "Superati tutti i ~a controlli!")
+  (test-engine-0-tests-passed "0 test superati.")
+  (test-engine-0-checks-passed "0 controlli superati.")
+  (test-engine-m-of-n-tests-failed "~a di ~a test falliti.")
+  (test-engine-m-of-n-checks-failed "~a di ~a controlli falliti.")
+  (test-engine-must-be-tested "Questo programma deve essere testato!")
+  (test-engine-is-unchecked "Questo programma è privo di controlli!")
+  (test-engine-tests-disabled "Test disabilitati.")
+  (test-engine-should-be-tested "Questo programma dovrebbe essere testato.")
+  (test-engine-at-line-column "alla linea ~a, colonna ~a")
+  (test-engine-in-at-line-column "in ~a, linea ~a, colonna ~a")
+  ; as in "colonna (sconoscuita)"
+  (test-engine-unknown "(sconosciuto)")
   (test-engine-trace-error "Trace error")
 
   ; The ~F is special marker for the offending values, which may be
   ; printed specially in DrRacket.
   (test-engine-check-encountered-error
-   "check-expect encountered the following error instead of the expected value, ~F. ~n   :: ~a")
+   "check-expect è incorso nel seguente errore invece del valore atteso, ~F. ~n   :: ~a")
   (test-engine-actual-value-differs-error
-   "Actual value ~F differs from ~F, the expected value.")
+   "Il valore effettivo ~F differisce da ~F, il valore atteso.")
   (test-engine-actual-value-not-within-error
-   "Actual value ~F is not within ~v of expected value ~F.")
+   "Il valore effettivo ~F non è entro ~v dal valore atteso ~F.")
   (test-engine-encountered-error-error
-   "check-error encountered the following error instead of the expected ~a~n   :: ~a")
+   "check-error è incorso nel seguente errore invece dell'atteso ~a~n   :: ~a")
   (test-engine-expected-error-error
-   "check-error expected the following error, but instead received the value ~F.~n ~a")
+   "check-error attendeva il seguente errore, ma ha invece ricevuto il valore ~F.~n ~a")
   (test-engine-expected-an-error-error
-   "check-error expected an error, but instead received the value ~F.")
+   "check-error attendeva un errore, ma ha invece ricevuto il valore ~F.")
   ;; members are appended to the message
-  (test-engine-not-mem-error "Actual value ~F differs from all given members in ")
-  (test-engine-not-range-error "Actual value ~F is not between ~F and ~F, inclusive.")
+  (test-engine-not-mem-error "Il valore effettivo ~F differisce da tutti i membri dati ")
+  (test-engine-not-range-error "Il valore effettivo ~F non è tra ~F e ~F, inclusi.")
 
   ;; followed by list of variable bindings
   (test-engine-property-fail-error "Property falsifiable with")
@@ -1642,7 +1642,7 @@ Italian translation for Racket
   ; as in got <value>, signature <at ...>
   (test-engine-got "got")
 
-  (profjWizward-insert-java-class "Insert Java Class")
+  (profjWizward-insert-java-class "Inserisci classe Java")
   (profjWizard-insert-java-union "Insert Java Union")
   
   ;; The Test Suite Tool
@@ -1675,9 +1675,9 @@ Italian translation for Racket
   (test-case-collapse "Collapse Test Case")
   (test-case-show-actual "Show Actual Value")
   (test-case-enable "Enable Test Case")
-  (test-case-show-predicate "Show Predicate")
-  (test-case-show-error-message "Show Error Message")
-  (test-case-convert-to-text "Convert to text")
+  (test-case-show-predicate "Mostra Predicato")
+  (test-case-show-error-message "Mostra messaggio di errore")
+  (test-case-convert-to-text "Converti in testo")
   
   ;; Profj Boxes
   (profjBoxes-empty-error "Empty interaction")
@@ -1742,8 +1742,8 @@ Italian translation for Racket
   (show-optimization-coach "Show Optimization Coach")
 
   ;; labels used (in a big font) in the background of the definitions and interactions windows
-  (definitions-window-label "definitions")
-  (interactions-window-label "interactions")
+  (definitions-window-label "definizioni")
+  (interactions-window-label "interazioni")
   (hide-defs/ints-label "Hide Definitions/Interactions Labels") ;; popup menu
   (show-defs/ints-label "Show definitions/interactions labels") ;; preferences checkbox
 
@@ -1768,11 +1768,11 @@ Italian translation for Racket
   (install-pkg-install-from-list "Available from Catalog") ; tab label
   (install-pkg-install-installed "Currently Installed")    ; tab label
   (install-pkg-migrate-from "Copy from Version")           ; tab label
-  (install-pkg-settings "Settings")                        ; tab label
-  (install-pkg-menu-item... "Install Package…")
-  (install-pkg-dialog-title "Install Package")
-  (install-pkg-source-label "Package Source")
-  (install-pkg-package-name "Package Name")
+  (install-pkg-settings "Impostazioni")                        ; tab label
+  (install-pkg-menu-item... "Installa Pacchetto…")
+  (install-pkg-dialog-title "Installa Pacchetto")
+  (install-pkg-source-label "Sorgente Pacchetto")
+  (install-pkg-package-name "Nome Pacchetto")
   (install-pkg-package-source-desc "A package source is a package name, file, directory, URL, or GitHub reference")
   (install-pkg-infer "Infer")
   (install-pkg-use "Use") ; as opposed to "Infer", label for text box
@@ -1852,8 +1852,8 @@ Italian translation for Racket
   ;; "~a" is pre-":" part of `install-pkg-dependencies-fail' or `install-pkg-dependencies-search-auto':
   (install-pkg-deps-is "Default dependency mode is ~a")
 
-  (install-pkg-package-catalogs "Package Catalogs") ; label for a list box
-  (install-pkg-add-package-catalog "Add Package Catalog")
+  (install-pkg-package-catalogs "Cataloghi pacchetti") ; label for a list box
+  (install-pkg-add-package-catalog "Aggiungi catalogo pacchetti")
 
   (install-pkg-not-rentrant "Installation and updating cannot happen simultaneously;"
                             " either abort the current one or wait for it to finish.")

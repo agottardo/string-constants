@@ -277,26 +277,26 @@ Italian translation for Racket
   ;; parenthesis color scheme string constants
   (parenthesis-color-scheme "Parenthesis color scheme") ;; label for the choice% menu in the preferences dialog
   (paren-color-basic-grey "Basic grey")
-  (paren-color-shades-of-gray "Shades of grey")
-  (paren-color-shades-of-blue "Shades of blue")
-  (paren-color-spring "Spring")
-  (paren-color-fall "Fall")
-  (paren-color-winter "Winter")
+  (paren-color-shades-of-gray "Sfumature di grigio")
+  (paren-color-shades-of-blue "Sfumature di blu")
+  (paren-color-spring "Primavera")
+  (paren-color-fall "Autunno")
+  (paren-color-winter "Inverno")
 
   
  (url: "URL:")
- (open-url... "Open URL…")
- (open-url "Open URL")
- (browse... "Browse…")
+ (open-url... "Apri URL…")
+ (open-url "Apri URL")
+ (browse... "Sfoglia…")
  (bad-url "Bad URL")
  (bad-url:this "Bad URL: ~a")
  
  ;; Help Desk
- (help "Help")
- (racket-documentation "Racket Documentation")
+ (help "Aiuto")
+ (racket-documentation "Documentazione di Racket")
  (help-desk "Help Desk")
- (plt:hd:search "Search")
- (plt:hd:feeling-lucky "Feeling Lucky")
+ (plt:hd:search "Cerca")
+ (plt:hd:feeling-lucky "Mi sento fortunato")
  (plt:hd:home "Help Desk home") 
  ; next 3 are popup menu choices in help desk search frame
  (plt:hd:search-for-keyword "Keyword entry")
@@ -307,20 +307,20 @@ Italian translation for Racket
  (plt:hd:regexp-match "Regexp match")
  (plt:hd:find-docs-for "Find docs for:")
  (plt:hd:search-stopped-too-many-matches "[Search aborted: too many matches]")
- (plt:hd:nothing-found-for "Nothing found for ~a")
- (plt:hd:and "and")
- (plt:hd:refresh "refresh")
- (plt:hd:refresh-all-manuals "refresh all manuals")
- (plt:hd:manual-installed-date "(installed ~a)")
+ (plt:hd:nothing-found-for "Non ho trovato nulla per ~a")
+ (plt:hd:and "e")
+ (plt:hd:refresh "aggiorna")
+ (plt:hd:refresh-all-manuals "aggiorna tutti i manuali")
+ (plt:hd:manual-installed-date "(installato il ~a)")
  ; Help Desk configuration
  ;; refreshing manuals
  (plt:hd:refreshing-manuals "Re-downloading Manuals")
- (plt:hd:refresh-downloading... "Downloading ~a…")
- (plt:hd:refresh-deleting... "Deleting old version of ~a…")
+ (plt:hd:refresh-downloading... "Scarico ~a…")
+ (plt:hd:refresh-deleting... "Cancello la vecchia versione di ~a…")
  (plt:hd:refresh-installing... "Installing new version of ~a…")
  (plt:hd:refresh-clearing-indices "Clearing cached indices")
- (plt:hd:refreshing-manuals-finished "Finished.")
- (plt:hd:about-help-desk "About Help Desk")
+ (plt:hd:refreshing-manuals-finished "Finito.")
+ (plt:hd:about-help-desk "A proposito dell'Help Desk")
  (plt:hd:help-desk-about-string
   "Help Desk is a complete source of information about Racket software.\n\nVersion ~a\nCopyright (c) ~a-~a PLT")
  (plt:hd:help-on-help "Help on Help")
@@ -341,7 +341,7 @@ Italian translation for Racket
   (plt:hd:manual-search-ordering "Manual Search Order")
   
   ;; in the help-desk standalone font preference dialog, on a check box
-  (use-drscheme-font-size "Use DrRacket's font size")
+  (use-drscheme-font-size "Utilizza dimensione font di DrRacket")
   
   ;; in the preferences dialog in drscheme there is example text for help desk font size.
   ;; clicking the links in that text produces a dialog with this message
@@ -354,8 +354,8 @@ Italian translation for Racket
   (help-desk-loading-documentation-index "Help Desk: loading documentation index")
   
  ;; Help desk htty proxy
- (http-proxy "HTTP Proxy")
- (proxy-direct-connection "Direct connection")
+ (http-proxy "Proxy HTTP")
+ (proxy-direct-connection "Connessione diretta")
  (proxy-use-proxy "Use proxy:")
  (proxy-host "Host")
  (proxy-port "Port")
@@ -366,13 +366,13 @@ Italian translation for Racket
  (forward-in-browser-history "Forward")
  (home "Home")
  (browser "Browser")
- (external-browser-choice-title "External Browser") ; title for radio-button set
- (browser-command-line-label "Command Line:") ; label for radio button that is followed by text boxes
- (choose-browser "Choose a Browser")
- (no-browser "Ask Later")
+ (external-browser-choice-title "Browser esterno") ; title for radio-button set
+ (browser-command-line-label "Riga di comando:") ; label for radio button that is followed by text boxes
+ (choose-browser "Scegli un Browser")
+ (no-browser "Chiedi dopo")
  (browser-cmdline-expl-line-1 "(Command line formed by concatenating pre-text, URL,") ; explanatory text for dialog, line 1
  (browser-cmdline-expl-line-2 "and post-text, with no extra spaces between them.)") ; ... line 2. (Anyone need more lines?)
- (install? "Install?")  ;; if a .plt file is found (title of dialog)
+ (install? "Installa?")  ;; if a .plt file is found (title of dialog)
  (you-have-selected-an-installable-package "You have selected an installable package.")
  (do-you-want-to-install-it? "Do you want to install it?")
  (paren-file-size "(The file is ~a bytes)")

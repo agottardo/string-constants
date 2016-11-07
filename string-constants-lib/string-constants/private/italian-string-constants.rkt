@@ -76,52 +76,52 @@ Italian translation for Racket
  (bug-report-field-collections "Collezioni")
  (bug-report-field-links "Links")  ;; from 'raco link'
  (bug-report-field-human-language "Human Language")
- (bug-report-field-memory-use "Memory Use")
- (bug-report-field-version "Version")
- (bug-report-synthesized-information "Synthesized Information")  ;; dialog title
- (bug-report-show-synthesized-info "Show Synthesized Info")
- (bug-report-submit "Submit")
- (close-and-save-bug-report "Close && Save") ;; button in bug report dialog, next to cancel and bug-report-submit
- (bug-report-submit-menu-item "Submit Bug Report…")  ;; same as above, but used when there are saved bug reports
- (saved-bug-reports-menu-item "Saved Bug Reports") ;; in Help Menu, submenu title
- (disacard-all-saved-bug-reports "Discard All Saved Bug Reports") ;; menu item: only shows up when there is more than one saved bug report
- (no-saved-bug-reports "No bug reports have been saved") ;; an info message that shows up as a disabled menu item when no saved bug reports are around
- (new-bug-report "New Bug Report") ;; button label the user sees when there are saved bug reports, but the user asks to save another one.
- (close-and-save "Close and Save") ;; button on the bottom of the bug report form
+ (bug-report-field-memory-use "Utilizzo memoria")
+ (bug-report-field-version "Versione")
+ (bug-report-synthesized-information "Informazioni sintetizzate")  ;; dialog title
+ (bug-report-show-synthesized-info "Mostra informazioni sintetizzate")
+ (bug-report-submit "Invia")
+ (close-and-save-bug-report "Chiudi && Salva") ;; button in bug report dialog, next to cancel and bug-report-submit
+ (bug-report-submit-menu-item "Invia segnalazione errori…")  ;; same as above, but used when there are saved bug reports
+ (saved-bug-reports-menu-item "Segnalazioni errori salvate") ;; in Help Menu, submenu title
+ (disacard-all-saved-bug-reports "Ignora tutte le segnalazioni errori salvate") ;; menu item: only shows up when there is more than one saved bug report
+ (no-saved-bug-reports "Nessuna segnalazione errori salvata") ;; an info message that shows up as a disabled menu item when no saved bug reports are around
+ (new-bug-report "Nuova segnalazione errori") ;; button label the user sees when there are saved bug reports, but the user asks to save another one.
+ (close-and-save "Chiudi e salva") ;; button on the bottom of the bug report form
  (saved-unsubmitted-bug-reports "Saved, unsubmitted bug reports:") 
   ;; the above string constant is next to previous line in same dialog, followed by list of bug report subjects (as buttons)
- (error-sending-bug-report "Error Sending Bug Report")
+ (error-sending-bug-report "Errore invio segnalazione errore")
  (error-sending-bug-report-expln
-  "An error occurred when sending this bug report."
-  " If your internet connection is otherwise working fine, please visit:\n\n    http://bugs.racket-lang.org/\n\nand"
-  " submit the bug via our online web-form. Sorry for the difficulties.\n\nThe error message is:\n~a")
- (illegal-bug-report "Illegal Bug Report")
+  "Si è verificato un errore nell'invio di questa segnalazione errori."
+  " Se la tua connessione Internet funziona correttamente, visita per favore:\n\n    http://bugs.racket-lang.org/\n\nand"
+  " segnala il bug attraverso il nostro form on-line. Ci scusiamo per il disagio.\n\nIl messaggio di errore è:\n~a")
+ (illegal-bug-report "Bug Report non valido")
  (pls-fill-in-field "Please fill in the “~a” field")
- (malformed-email-address "Malformed email address")
+ (malformed-email-address "Indirizzo e-mail non valido")
  (pls-fill-in-either-description-or-reproduce "Please fill in either the Description field or the Steps to Reproduce field.")
 
  ;;; check syntax
- (check-syntax "Check Syntax")
- (cs-italic "Italic")
- (cs-bold "Bold")
- (cs-underline "Underline")
- (cs-change-color "Change Color")
- (cs-foreground-color "Foreground Color")
- (cs-background-color "Background Color")
+ (check-syntax "Controlla sintassi")
+ (cs-italic "Corsivo")
+ (cs-bold "Grassetto")
+ (cs-underline "Sottolineato")
+ (cs-change-color "Cambia colore")
+ (cs-foreground-color "Colore primo piano")
+ (cs-background-color "Colore sfondo")
  (cs-tack/untack-arrow "Tack/Untack Arrow(s)")
  (cs-tack-crossing-arrows "Tack Crossing Arrows")
  (cs-jump-to-next-bound-occurrence "Jump to Next Bound Occurrence")
  (cs-jump-to-previous-bound-occurrence "Jump to Previous Bound Occurrence")
  (cs-jump-to-binding "Jump to Binding Occurrence")
- (cs-jump-to-definition "Jump to Definition (in Other File)")
+ (cs-jump-to-definition "Vai alla Definizione (in un altro file)")
  (cs-open-defining-file "Open Defining File")
- (cs-error-message "Error Message")
- (cs-open-file "Open ~a")
- (cs-rename-var "Rename ~a")
- (cs-rename-id "Rename Identifier")
- (cs-rename-var-to "Rename “~a” to:")
+ (cs-error-message "Messaggio di errore")
+ (cs-open-file "Apri ~a")
+ (cs-rename-var "Rinomina ~a")
+ (cs-rename-id "Rinomina Identifier")
+ (cs-rename-var-to "Rinomina “~a” in:")
  (cs-name-duplication-error "The new name you have chosen, ~s, conflicts with an already established name in this scope.")
- (cs-rename-anyway "Rename Anyway")
+ (cs-rename-anyway "Rinomina comunque")
  (cs-status-init "Check Syntax: Initializing environment for user code")
  (cs-status-coloring-program "Check Syntax: coloring expression")
  (cs-status-eval-compile-time "Check Syntax: eval compile time")
@@ -130,16 +130,16 @@ Italian translation for Racket
  (cs-syncheck-running "Check Syntax Running")
  (cs-mouse-over-import "binding “~s” imported from “~s”")
  (cs-mouse-over-import/library-only "imported from “~s”")
- (cs-view-docs "View documentation for “~a”")
- (cs-view-docs-from "~a from ~a")  ;; a completed version of the line above
+ (cs-view-docs "Vedi documentazione per “~a”")
+ (cs-view-docs-from "~a da ~a")  ;; a completed version of the line above
   ;; (cs-view-docs) is put into the first ~a and a list of modules (separated by commas) 
   ;; is put into the second ~a. Use check syntax and right-click on a documented variable (eg, 'require') to see this in use
   
- (cs-lexical-variable "lexical variable")
- (cs-set!d-variable "mutated variable")
- (cs-imported-variable "imported variable")
- (cs-unused-require "unused require")
- (cs-free-variable "free variable")
+ (cs-lexical-variable "variabile lessicale")
+ (cs-set!d-variable "variabile mutata")
+ (cs-imported-variable "variabile importata")
+ (cs-unused-require "require non utilizzato")
+ (cs-free-variable "variabile libera")
 
   (cs-binder-count "~a binding occurrences")
   (cs-zero-varrefs "no bound occurrences")
@@ -152,9 +152,9 @@ Italian translation for Racket
   (cs-contract-unk-obligation "Contract: unknown obligation")
 
   ;; require prefix functionality
-  (cs-add-prefix-for-require "Add prefix for require")
+  (cs-add-prefix-for-require "Aggiungi prefisso per require")
   (cs-prefix-require-title "Prefix Require")
-  (cs-prefix-require "Choose a prefix to add to each imported variable")
+  (cs-prefix-require "Scegli un prefisso da aggiungere ad ogni variabile importata")
   (cs-all-binders-are-prefixed "All of the requires already appear to have a prefix; try to rename it instead")
   (cs-the-binder-is-prefixed "The require appears to already have a prefix; try to rename it instead")
   
@@ -203,42 +203,42 @@ Italian translation for Racket
  (running "running")
  (not-running "not running")
   
-  (install-package-button "Install ~a") ;; button label: ~a is filled with the name of a pkg
-  (update-catalog "Update Catalog") ;; button label; shown when there is a missing module, but no matching package
-  (updating-catalog-from "Updating from ~a…") ;; message label; used as a status message when updating the pkg catalog
+  (install-package-button "Installa ~a") ;; button label: ~a is filled with the name of a pkg
+  (update-catalog "Aggiorna catalogo") ;; button label; shown when there is a missing module, but no matching package
+  (updating-catalog-from "Aggiornando da ~a…") ;; message label; used as a status message when updating the pkg catalog
   
  ;;; misc
- (welcome-to-something "Welcome to ~a")
+ (welcome-to-something "Benvenuto in ~a")
  
  ; this appears in the drscheme about box.
- (welcome-to-drscheme-version/language "Welcome to DrRacket, version ~a, ~a")
+ (welcome-to-drscheme-version/language "Benvenuto in DrRacket, versione ~a, ~a")
 
  ; these appear on subsequent lines in the `Help|Welcome to DrRacket' dialog.
- (welcome-to-drscheme "Welcome to DrRacket")
+ (welcome-to-drscheme "Benvenuto in DrRacket")
 
- (goto-line "Goto line")
+ (goto-line "Vai alla linea")
  (goto-line-invalid-number
   "~a is not a valid line number. It must be an integer between 1 and ~a")
- (goto-position "Goto Position")
+ (goto-position "Vai a posizione")
  (no-full-name-since-not-saved
   "The file does not have a full name because it has not yet been saved.")
  (cannot-open-because-dne "Cannot open ~a because it does not exist.")
 
   (needs-execute-language-changed
-   "WARNING: The language has changed. Click Run.")
+   "ATTENZIONE: Il linguaggio è cambiato. Premi Esegui.")
   (needs-execute-teachpack-changed
-   "WARNING: The teachpacks have changed. Click Run.")
+   "ATTENZIONE: Il teachpack è cambiato. Premi Esegui.")
   (needs-execute-defns-edited
-   "WARNING: The definitions window has changed. Click Run.")
+   "ATTENZIONE: La finestra delle definizioni è cambiata. Premi Esegui.")
   
   (editor-changed-since-srcloc-recorded
    "This editor has been changed since the source location was recorded, so the highlighted region may no longer correspond to the correct source location.")
   
- (file-is-not-saved "The file “~a” is not saved.")
- (save "Save")
- (close-anyway "Close Anyway")
- (dont-save "Don't Save")
- (clear-anyway "Clear Anyway")
+ (file-is-not-saved "Il file “~a” non è salvato.")
+ (save "Salva")
+ (close-anyway "Chiudi comunque")
+ (dont-save "Non salvare")
+ (clear-anyway "Cancella comunque")
 
  ;; menu item title
  (log-definitions-and-interactions "Log Definitions and Interactions…")
@@ -255,17 +255,17 @@ Italian translation for Racket
   (log-messages "Log Messages") ;; label for the drracket logging gui panel
   
  ;; modes
- (mode-submenu-label "Modes")
- (scheme-mode "Scheme mode")
- (racket-mode "Racket mode")
- (text-mode "Text mode")
+ (mode-submenu-label "Modalità")
+ (scheme-mode "Modalità Scheme")
+ (racket-mode "Modalità Racket")
+ (text-mode "Modalità testo")
 
- (scheme-mode-color-symbol "Symbol")
+ (scheme-mode-color-symbol "Simbolo")
  (scheme-mode-color-keyword "Keyword")
- (scheme-mode-color-comment "Comment")
- (scheme-mode-color-string "String")
- (scheme-mode-color-text "Text")
- (scheme-mode-color-constant "Constant")
+ (scheme-mode-color-comment "Commento")
+ (scheme-mode-color-string "Stringa")
+ (scheme-mode-color-text "Testo")
+ (scheme-mode-color-constant "Costante")
  (scheme-mode-color-parenthesis "Parenthesis")
  (scheme-mode-color-hash-colon-keyword "#:Keyword")
  (scheme-mode-color-error "Error")
